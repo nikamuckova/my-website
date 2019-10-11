@@ -6,7 +6,7 @@ export default () => (
   <div className={styles.formBorder} style={{ width: "100%" }}>
     <Form
       layout="vertical"
-      method="post"
+      action="post"
       netlify-honeypot="bot-field"
       data-netlify="true"
     >
@@ -19,6 +19,12 @@ export default () => (
       </Form.Item>
       <Form.Item label="Message">
         <Input.TextArea placeholder="Write the message" />
+      </Form.Item>
+      <Form.Item label="myfile">
+        <input type="file" placeholder="Upload file" />
+      </Form.Item>
+      <Form.Item>
+        <div data-netlify-recaptcha="true"></div>
       </Form.Item>
       <Form.Item>
         <Button
