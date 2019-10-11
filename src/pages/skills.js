@@ -3,25 +3,23 @@ import Header from "../components/header"
 import styles from "../components/mystyle.module.css"
 import Paragraph from "../components/paragraph"
 import Container from "../components/container"
-import GirlImage from "../images/adventure.svg"
+import SkillsImage from "../images/undraw_static_assets.svg"
 import Footer from "../components/footer"
 import { Layout } from "../components/layout"
 
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="Hi, I'm Nikola!" />
+      <Header headerText="Skills" />
       <div className={styles.flexContainer}>
         <img
-          src={GirlImage}
-          alt="Programming girl"
+          src={SkillsImage}
+          alt="React girl"
           className={styles.imageDimension}
-          style={{ width: "576px", height: "408px" }}
         />
         <Paragraph
           paragraphText="
-      I am 25 years old Junior Front-end developer and currently I am searching
-      for a new job opportunities."
+      ..."
         />
       </div>
     </Container>

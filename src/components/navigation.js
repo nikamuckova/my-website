@@ -1,0 +1,32 @@
+import React from "react"
+import { Link } from "gatsby"
+
+import styles from "../components/mystyle.module.css"
+
+export default () => (
+  <ul>
+    <li>
+      <Link activeClassName={styles.active} to="/">
+        About me
+      </Link>
+    </li>
+    <li>
+      <Link activeClassName={styles.active} to="/skills">
+        Skills{" "}
+      </Link>
+    </li>
+    <li>
+      <Link activeClassName={styles.active} to="/portfolio">
+        Portfolio
+      </Link>
+    </li>
+    <li>
+      <Link activeClassName={styles.active} to="/contact">
+        Contact
+      </Link>
+    </li>
+    <li>
+      <a to="#">Hire me!</a>
+    </li>
+  </ul>
+)

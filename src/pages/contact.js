@@ -1,27 +1,22 @@
 import React from "react"
 import Header from "../components/header"
 import styles from "../components/mystyle.module.css"
-import Paragraph from "../components/paragraph"
 import Container from "../components/container"
-import GirlImage from "../images/adventure.svg"
+import ContactImage from "../images/undraw_contact_us.svg"
 import Footer from "../components/footer"
 import { Layout } from "../components/layout"
+import ContactForm2 from "../components/contactForm2"
 
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="Hi, I'm Nikola!" />
-      <div className={styles.flexContainer}>
+      <Header headerText="Contact me!" />
+      <div className={styles.flexContainer} style={{ flexWrap: "nowrap" }}>
+        <ContactForm2 />
         <img
-          src={GirlImage}
+          src={ContactImage}
           alt="Programming girl"
           className={styles.imageDimension}
-          style={{ width: "576px", height: "408px" }}
-        />
-        <Paragraph
-          paragraphText="
-      I am 25 years old Junior Front-end developer and currently I am searching
-      for a new job opportunities."
         />
       </div>
     </Container>
