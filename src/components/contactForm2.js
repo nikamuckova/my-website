@@ -4,13 +4,7 @@ import styles from "./mystyle.module.css"
 
 export default () => (
   <div className={styles.formBorder} style={{ width: "100%" }}>
-    <Form
-      layout="vertical"
-      action="post"
-      netlify-honeypot="bot-field"
-      data-netlify="true"
-    >
-      <input type="hidden" name="bot-field" />
+    <Form layout="vertical" name="contact" method="POST" data-netlify="true">
       <Form.Item label="Name">
         <Input size="large" />
       </Form.Item>
@@ -20,14 +14,9 @@ export default () => (
       <Form.Item label="Message">
         <Input.TextArea placeholder="Write the message" />
       </Form.Item>
-      <Form.Item label="myfile">
-        <input type="file" placeholder="Upload file" />
-      </Form.Item>
-      <Form.Item>
-        <div data-netlify-recaptcha="true"></div>
-      </Form.Item>
       <Form.Item>
         <Button
+          type="submit"
           size="large"
           className={styles.formButton}
           style={{ color: "white" }}
