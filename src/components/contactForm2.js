@@ -4,13 +4,7 @@ import styles from "./mystyle.module.css"
 
 export default () => (
   <div className={styles.formBorder} style={{ width: "100%" }}>
-    <Form
-      layout="vertical"
-      name="contact"
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
+    <Form layout="vertical" name="contact" method="post" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <Form.Item label="Name">
         <Input size="large" name="name" />
@@ -22,7 +16,7 @@ export default () => (
         <Input.TextArea placeholder="Write the message" name="message" />
       </Form.Item>
       <Form.Item>
-        <button type="submit" className={styles.formButton}>
+        <button type="submit" name="button" className={styles.formButton}>
           SEND MESSAGE
         </button>
       </Form.Item>
