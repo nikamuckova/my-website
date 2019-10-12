@@ -12,7 +12,7 @@ export default () => (
     <Container>
       <Header headerText="Contact me!" />
       <div className={styles.flexContainer} style={{ flexWrap: "nowrap" }}>
-        <ContactForm2 />
+        <ContactForm />
         <img
           src={ContactImage}
           alt="Programming girl"

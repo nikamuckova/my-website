@@ -24,10 +24,10 @@ export default class ContactForm extends React.Component {
     return (
       <form
         //onSubmit={this.handleSubmit}
+        name="contact"
         method="post"
-        action="https://formspree.io/meylavwm"
+        data-netlify="true"
       >
-        <input type="hidden" name="_next" value="//thanks.html" />
         <label>
           First name
           <input
