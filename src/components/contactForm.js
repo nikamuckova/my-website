@@ -28,6 +28,8 @@ export default class ContactForm extends React.Component {
         method="post"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="contact" />
+
         <label>
           First name
           <input
