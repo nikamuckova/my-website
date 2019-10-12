@@ -6,6 +6,7 @@ import ContactImage from "../images/undraw_contact_us.svg"
 import Footer from "../components/footer"
 import { Layout } from "../components/layout"
 import ContactForm2 from "../components/contactForm2"
+import ContactForm from "../components/contactForm"
 
 export default () => (
   <Layout>
