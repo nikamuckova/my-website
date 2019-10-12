@@ -4,7 +4,14 @@ import styles from "./mystyle.module.css"
 
 export default () => (
   <div className={styles.formBorder} style={{ width: "100%" }}>
-    <Form layout="vertical" name="contact" method="post" data-netlify="true">
+    <Form
+      layout="vertical"
+      name="contact"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact" />
       <Form.Item label="Name">
         <Input size="large" name="name" />
       </Form.Item>
