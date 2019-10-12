@@ -5,14 +5,14 @@ import Container from "../components/container"
 import ContactImage from "../images/undraw_contact_us.svg"
 import Footer from "../components/footer"
 import { Layout } from "../components/layout"
-import ContactForm from "../components/contactForm"
+import ContactForm2 from "../components/contactForm2"
 
 export default () => (
   <Layout>
     <Container>
       <Header headerText="Contact me!" />
       <div className={styles.flexContainer} style={{ flexWrap: "nowrap" }}>
-        <ContactForm />
+        <ContactForm2 />
         <img
           src={ContactImage}
           alt="Programming girl"
