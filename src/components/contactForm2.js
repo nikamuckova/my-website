@@ -15,14 +15,9 @@ export default () => (
         <Input.TextArea placeholder="Write the message" />
       </Form.Item>
       <Form.Item>
-        <Button
-          type="submit"
-          size="large"
-          className={styles.formButton}
-          style={{ color: "white" }}
-        >
+        <button type="submit" className={styles.formButton}>
           SEND MESSAGE
-        </Button>
+        </button>
       </Form.Item>
     </Form>
   </div>
