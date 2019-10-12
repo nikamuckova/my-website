@@ -4,7 +4,7 @@ import styles from "./mystyle.module.css"
 
 export default () => (
   <div className={styles.formBorder} style={{ width: "100%" }}>
-    <Form layout="vertical" name="contact" method="post" data-netlify="true">
+    <form layout="vertical" name="contact" method="post" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <Form.Item label="Name">
         <input name="name" />
@@ -20,6 +20,6 @@ export default () => (
           SEND MESSAGE
         </button>
       </Form.Item>
-    </Form>
+    </form>
   </div>
 )
