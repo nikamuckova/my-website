@@ -6,23 +6,24 @@ import ContactImage from "../images/undraw_contact_us.svg"
 import Footer from "../components/footer"
 import { Layout } from "../components/layout"
 import ContactForm from "../components/contactForm"
+import { MainRow, MainCol } from "../components/grid"
 
 export default () => (
   <Layout>
     <Container>
       <Header headerText="Contact me!" />
-      <div className={styles.flexContainer}>
-        <div className={styles.insideContainer}>
+      <MainRow>
+        <MainCol>
           <ContactForm />
-        </div>
-        <div className={styles.imageContainer}>
+        </MainCol>
+        <MainCol>
           <img
             src={ContactImage}
             alt="Programming girl"
             className={styles.imageDimension}
           />
-        </div>
-      </div>
+        </MainCol>
+      </MainRow>
     </Container>
   </Layout>
 )
