@@ -101,7 +101,7 @@ li a:hover {
   background-color: #ffffff;
   width: 50%;
   position: relative;
-  height: 500px;
+  height: fit-content;
 }
 
 @media (max-width: 1024px) {
@@ -160,12 +160,52 @@ li a:hover {
 }
 
 .imageDimension {
-  width: 80%;
-  height: auto;
+  max-width: 100%;
+  max-height: 400px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 575px) {
+  .imageDimension {
+    width: 100%;
+    max-height: 200px;
+    margin: 0px auto 30px auto;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 576px) {
+  .imageDimension {
+    width: 100%;
+    max-height: 250px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 720px) and (min-width: 621px) {
+  .imageDimension {
+    width: 100%;
+    max-height: 300px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 815px) and (min-width: 721px) {
+  .imageDimension {
+    width: 100%;
+    max-height: 350px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 816px) {
+  .imageDimension {
+    width: 100%;
+    max-height: 400px;
+    margin: 20px auto;
+  }
 }
 
 
