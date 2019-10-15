@@ -9,13 +9,15 @@ import "antd/dist/antd.css"
 
 export const Layout = ({ children }) => (
   <div className={styles.body}>
-    <div className={styles.largeMenu}>
-      <Navigation />
+    <div className={styles.wrapper}>
+      <div className={styles.largeMenu}>
+        <Navigation />
+      </div>
+      <div className={styles.smallMenu}>
+        <NavigationSmall />
+      </div>
+      <div className={styles.main}>{children}</div>
     </div>
-    <div className={styles.smallMenu}>
-      <NavigationSmall />
-    </div>
-    {children}
     <Footer />
   </div>
 )

@@ -1,7 +1,6 @@
 .header {
   color: #ff69b4;
   font-size: 70px;
-  margin: 0px 20px;
 }
 
 @media (max-width: 414px) {
@@ -10,11 +9,14 @@
   }
 }
 
-.body {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+h1 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .right {
@@ -23,9 +25,46 @@
 
 .paragraph {
   color: black;
-  margin: 25px;
   max-width: 600px;
   font-size: 30px;
+}
+
+.wrapper {
+  min-height: calc(100vh - 100px);
+}
+
+.main {
+  padding-bottom: 40px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 640px) {
+  .row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .item {
+    width: 50%;
+  }
+
+  .item:first-child {
+    padding-right: 20px;
+  }
+
+  .item:last-child {
+    padding-left: 20px;
+  }
 }
 
 .buttonHireMe {
@@ -83,138 +122,11 @@ li a:hover {
   margin-top: auto;
 }
 
-.flexContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-@media (max-width: 1024px) {
-  .flexContainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-}
-
-.insideContainer {
-  background-color: #ffffff;
-  width: 50%;
-  position: relative;
-  height: fit-content;
-}
-
-@media (max-width: 1024px) {
-  .insideContainer {
-    width: 95%;
-    height: 500;
-    margin: 20px auto;
-  }
-}
-
-.imageContainer {
-  background-color: #ffffff;
-  width: 50%;
-  position: relative;
-  height: 500px;
-}
-
-@media (max-width: 575px) {
-  .imageContainer {
-    width: 100%;
-    max-height: 200px;
-    margin: 0px auto 30px auto;
-  }
-}
-
-@media (max-width: 620px) and (min-width: 576px) {
-  .imageContainer {
-    width: 100%;
-    max-height: 250px;
-    margin: 20px auto;
-  }
-}
-
-@media (max-width: 720px) and (min-width: 621px) {
-  .imageContainer {
-    width: 100%;
-    max-height: 300px;
-    margin: 20px auto;
-  }
-}
-
-@media (max-width: 815px) and (min-width: 721px) {
-  .imageContainer {
-    width: 100%;
-    max-height: 350px;
-    margin: 20px auto;
-  }
-}
-
-@media (max-width: 1024px) and (min-width: 816px) {
-  .imageContainer {
-    width: 100%;
-    max-height: 400px;
-    margin: 20px auto;
-  }
-}
-
-.imageDimension {
-  max-width: 100%;
-  max-height: 400px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@media (max-width: 575px) {
-  .imageDimension {
-    width: 100%;
-    max-height: 200px;
-    margin: 0px auto 30px auto;
-  }
-}
-
-@media (max-width: 620px) and (min-width: 576px) {
-  .imageDimension {
-    width: 100%;
-    max-height: 250px;
-    margin: 20px auto;
-  }
-}
-
-@media (max-width: 720px) and (min-width: 621px) {
-  .imageDimension {
-    width: 100%;
-    max-height: 300px;
-    margin: 20px auto;
-  }
-}
-
-@media (max-width: 815px) and (min-width: 721px) {
-  .imageDimension {
-    width: 100%;
-    max-height: 350px;
-    margin: 20px auto;
-  }
-}
-
-@media (max-width: 1024px) and (min-width: 816px) {
-  .imageDimension {
-    width: 100%;
-    max-height: 400px;
-    margin: 20px auto;
-  }
-}
-
-
 .formBorder {
+  margin-bottom: 40px;
+  padding: 40px;
   border-radius: 5px;
   background-color: #ff6e6113;
-  padding: 40px;
-
-
 }
 
 .formBorder:hover {
@@ -272,16 +184,10 @@ li a:hover {
 
 
 .thanks {
-  background-color: #e7bead31;
-  width: 350px;
-  height: 150px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border: 3px solid #ff69b4;
+  margin-bottom: 40px;
+  padding: 20px;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #e7bead31;
+  border: 3px solid #ff69b4;
+  text-align: center;
 }
