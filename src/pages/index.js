@@ -12,17 +12,20 @@ export default () => (
     <Container>
       <Header headerText="Hi, I'm Nikola!" />
       <div className={styles.flexContainer}>
-        <img
-          src={GirlImage}
-          alt="Programming girl"
-          className={styles.imageDimension}
-          style={{ width: "576px", height: "408px" }}
-        />
-        <Paragraph
-          paragraphText="
+        <div className={styles.insideContainer}>
+          <Paragraph
+            paragraphText="
       I am 25 years old Junior Front-end developer and I am currently searching
       for a new job opportunities."
-        />
+          />
+        </div>
+        <div className={styles.imageContainer}>
+          <img
+            src={GirlImage}
+            alt="Programming girl"
+            className={styles.imageDimension}
+          />
+        </div>
       </div>
     </Container>
   </Layout>

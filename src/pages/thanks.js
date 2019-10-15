@@ -12,7 +12,7 @@ export default () => (
     <Container>
       <Header headerText="Contact me!" />
       <div className={styles.flexContainer}>
-        <div className={styles.thanksContainer}>
+        <div className={styles.insideContainer}>
           <div className={styles.thanks}>
             <div>
               <b style={{ fontSize: "25px" }}>Thank you!</b>
@@ -22,11 +22,13 @@ export default () => (
             </div>
           </div>
         </div>
-        <img
-          src={ContactImage}
-          alt="Programming girl"
-          className={styles.imageDimension}
-        />
+        <div className={styles.imageContainer}>
+          <img
+            src={ContactImage}
+            alt="Programming girl"
+            className={styles.imageDimension}
+          />
+        </div>
       </div>
     </Container>
   </Layout>

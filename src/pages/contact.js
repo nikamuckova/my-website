@@ -12,12 +12,16 @@ export default () => (
     <Container>
       <Header headerText="Contact me!" />
       <div className={styles.flexContainer}>
-        <ContactForm />
-        <img
-          src={ContactImage}
-          alt="Programming girl"
-          className={styles.imageDimension}
-        />
+        <div className={styles.insideContainer}>
+          <ContactForm />
+        </div>
+        <div className={styles.imageContainer}>
+          <img
+            src={ContactImage}
+            alt="Programming girl"
+            className={styles.imageDimension}
+          />
+        </div>
       </div>
     </Container>
   </Layout>
