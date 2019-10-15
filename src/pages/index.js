@@ -20,7 +20,7 @@ export default () => (
         />
         <Paragraph
           paragraphText="
-      I am 25 years old Junior Front-end developer and currently I am searching
+      I am 25 years old Junior Front-end developer and I am currently searching
       for a new job opportunities."
         />
       </div>

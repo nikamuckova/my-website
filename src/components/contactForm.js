@@ -1,72 +1,25 @@
 import React from "react"
+import { Form, Input, Button } from "antd"
+import styles from "./mystyle.module.css"
 
-export default class ContactForm extends React.Component {
-  state = {
-    firstName: "",
-    lastName: "",
-    _replyto: "",
-    message: "",
-  }
-  handleInputChange = event => {
-    const target = event.target
-    const value = target.value
-    const name = target.name
-    this.setState({
-      [name]: value,
-    })
-  }
-
-  /*handleSubmit = event => {
-    event.preventDefault()
-    alert(`Welcome ${this.state.firstName}`)
-  }*/
-  render() {
-    return (
-      <form
-        //onSubmit={this.handleSubmit}
-        name="contact"
-        method="post"
-        data-netlify="true"
-      >
-        <input type="hidden" name="form-name" value="contact" />
-
-        <label>
-          First name
-          <input
-            type="text"
-            name="firstName"
-            value={this.state.firstName}
-            onChange={this.handleInputChange}
-          />
-        </label>
-        <label>
-          Last name
-          <input
-            type="text"
-            name="lastName"
-            value={this.state.lastName}
-            onChange={this.handleInputChange}
-          />
-        </label>
-        <label>
-          Email
-          <input
-            type="email"
-            name="_replyto"
-            value={this.state.email}
-            onChange={this.handleInputChange}
-          />
-        </label>
-        <label>
-          Message
-          <textarea
-            name="message"
-            value={this.state.message}
-            onChange={this.handleInputChange}
-          />
-        </label>
-        <button type="submit">Send message</button>
-      </form>
-    )
-  }
-}
+export default () => (
+  <div className={styles.formBorder} style={{ width: "100%" }}>
+    <Form name="contact" method="post" data-netlify="true" action="/thanks">
+      <input type="hidden" name="form-name" value="contact" />
+      <Form.Item label="Name">
+        <Input size="large" name="name" />
+      </Form.Item>
+      <Form.Item label="Email">
+        <Input size="large" name="email" />
+      </Form.Item>
+      <Form.Item label="Message">
+        <Input.TextArea placeholder="Write the message" name="message" />
+      </Form.Item>
+      <Form.Item>
+        <button type="submit" name="button" className={styles.formButton}>
+          SEND MESSAGE
+        </button>
+      </Form.Item>
+    </Form>
+  </div>
+)

@@ -12,7 +12,16 @@ export default () => (
     <Container>
       <Header headerText="Contact me!" />
       <div className={styles.flexContainer}>
-        <ContactForm />
+        <div className={styles.thanksContainer}>
+          <div className={styles.thanks}>
+            <div>
+              <b style={{ fontSize: "25px" }}>Thank you!</b>
+              <p style={{ fontSize: "18px" }}>
+                Your message has been received.
+              </p>
+            </div>
+          </div>
+        </div>
         <img
           src={ContactImage}
           alt="Programming girl"

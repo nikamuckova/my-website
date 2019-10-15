@@ -4,7 +4,13 @@ import { Link } from "gatsby"
 import styles from "../components/mystyle.module.css"
 
 export default () => (
-  <ul>
+  <ul
+    className={styles.largeMenu}
+    style={{
+      display: "flex",
+      justifyContent: "flex-end",
+    }}
+  >
     <li>
       <Link activeClassName={styles.active} to="/">
         About me
@@ -24,9 +30,6 @@ export default () => (
       <Link activeClassName={styles.active} to="/contact">
         Contact
       </Link>
-    </li>
-    <li>
-      <a to="#">Hire me!</a>
     </li>
   </ul>
 )

@@ -11,6 +11,10 @@
   min-height: 100vh;
 }
 
+.right {
+  text-align: right;
+}
+
 .paragraph {
   color: black;
   margin: 25px;
@@ -76,13 +80,25 @@ li a:hover {
 .flexContainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 714px) {
+  .flexContainer {
+    flex-direction: column;
+  }
 }
 
 .imageDimension {
   margin: 25px;
   width: 40%;
   height: auto;
+}
+
+@media (max-width: 714px) {
+  .imageDimension {
+    margin: 0 auto;
+  }
 }
 
 .formBorder {
@@ -98,4 +114,69 @@ li a:hover {
 .formButton {
   background: linear-gradient(to right, #f9ed32, #ee2a7b) !important;
   color: white;
+}
+
+.navLinks {
+  background-color: #e7bead31;
+}
+
+.menuItem {
+  color: #ff69b4;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.menuItem:hover {
+  background-color: #ff6e6156;
+  color: white;
+}
+
+.menuButton {
+  background: linear-gradient(to right, #f9ed32, #ee2a7b);
+  display: inline-block;
+  padding: 14px 16px;
+  color: white;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.menuButton:hover {
+  background: linear-gradient(100deg, #f9ed32, #ee2a7b);
+}
+
+@media (max-width: 850px) {
+  .largeMenu {
+    display: none;
+  }
+}
+
+@media (min-width: 851px) {
+  .smallMenu {
+    display: none;
+  }
+}
+
+.thanksContainer {
+  background-color: #ffffff;
+  width: 50%;
+  position: relative;
+}
+
+.thanks {
+  background-color: #e7bead31;
+  width: 350px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #ff69b4;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
