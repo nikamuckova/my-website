@@ -4,12 +4,7 @@ import styles from "./mystyle.module.css"
 
 export default () => (
   <div className={styles.formBorder} style={{ width: "100%" }}>
-    <Form
-      name="contact"
-      method="post"
-      data-netlify="true"
-      action="/pages/thanks"
-    >
+    <form name="contact" method="post" data-netlify="true" action="/thanks">
       <input type="hidden" name="form-name" value="contact" />
       <Form.Item label="Name">
         <Input size="large" name="name" />
@@ -25,6 +20,6 @@ export default () => (
           SEND MESSAGE
         </button>
       </Form.Item>
-    </Form>
+    </form>
   </div>
 )
