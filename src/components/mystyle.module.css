@@ -106,6 +106,7 @@ li a:hover {
   padding: 10px;
   text-align: center;
   margin-top: auto;
+
 }
 
 .formBorder {
@@ -204,4 +205,16 @@ li a:hover {
   background-color: #e7bead31;
   border: 3px solid #ff69b4;
   text-align: center;
+}
+
+.media {
+  color: black !important;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.media:hover {
+  color: rgb(85, 83, 83) !important;
+  transition: all 1s ease 0s;
+
 }
