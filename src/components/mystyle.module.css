@@ -29,6 +29,12 @@ img {
   font-size: 30px;
 }
 
+.paragraph2 {
+  color: rgba(39, 38, 38, 0.801);
+  max-width: 600px;
+  font-size: 18px;
+}
+
 .wrapper {
   min-height: calc(100vh - 100px);
 }
@@ -106,7 +112,6 @@ li a:hover {
   padding: 10px;
   text-align: center;
   margin-top: auto;
-
 }
 
 .formBorder {
@@ -133,9 +138,7 @@ li a:hover {
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
   background: linear-gradient(to right, orange, #ee2a7b);
   transition: all 0.5s ease 0s;
-
 }
-
 
 .navLinks {
   background-color: #e7bead31;
@@ -162,7 +165,7 @@ li a:hover {
   border: 0;
   outline: 0;
   cursor: pointer;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 
 .menuButton:hover {
@@ -177,12 +180,12 @@ li a:hover {
   border: 0;
   outline: 0;
   cursor: pointer;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 
 .closeButton:hover {
   background: linear-gradient(to right, #ff6e6156, #ee2a7b);
-  color: white
+  color: white;
 }
 
 @media (max-width: 850px) {
@@ -196,7 +199,6 @@ li a:hover {
     display: none;
   }
 }
-
 
 .thanks {
   margin-bottom: 40px;
@@ -216,5 +218,12 @@ li a:hover {
 .media:hover {
   color: rgb(85, 83, 83) !important;
   transition: all 1s ease 0s;
+}
 
+.line {
+  position: relative;
+  display: inline-block;
+  margin: 60px 0px 20px 0px;
+  width: 100%;
+  border-bottom: 1px solid #7a7a7a;
 }

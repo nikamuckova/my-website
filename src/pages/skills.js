@@ -1,10 +1,9 @@
 import React from "react"
 import Header from "../components/header"
 import styles from "../components/mystyle.module.css"
-import Paragraph from "../components/paragraph"
+import Paragraph2 from "../components/paragraph2"
 import Container from "../components/container"
 import SkillsImage from "../images/undraw_static_assets.svg"
-import Footer from "../components/footer"
 import { Layout } from "../components/layout"
 import { MainRow, MainCol } from "../components/grid"
 
@@ -14,10 +13,14 @@ export default () => (
       <Header headerText="Skills" />
       <MainRow>
         <MainCol>
-          <Paragraph
-            paragraphText="
-      ..."
-          />
+          <h1 id="C4">Preferred Frontend Frameworks</h1>
+          <Paragraph2 paragraph2Text="React/Next.js/Gatsby/Bootstrap" />
+          <h1 id="C4">Languages</h1>
+          <Paragraph2 paragraph2Text="JavaScript (ES6+)/typescript/html5/css/scss" />
+          <h1 id="C4">Methods & Tools</h1>
+          <Paragraph2 paragraph2Text="npm/gulp/webpack/redux" />
+          <h1 id="C4">Additional</h1>
+          <Paragraph2 paragraph2Text="git/" />
         </MainCol>
         <MainCol>
           <img

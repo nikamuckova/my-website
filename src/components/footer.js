@@ -13,5 +13,8 @@ export default () => (
     <a href="https://www.instagram.com/nikamuckova/">
       <Icon type="instagram" className={styles.media} />
     </a>
+    <a href="https://twitter.com/NikolaMuckova">
+      <Icon type="twitter" className={styles.media} />
+    </a>
   </div>
 )

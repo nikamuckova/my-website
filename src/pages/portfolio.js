@@ -3,11 +3,13 @@ import Header from "../components/header"
 import Paragraph from "../components/paragraph"
 import Container from "../components/container"
 import PortfolioImage from "../images/undraw_portfolio_update.svg"
+import RememberMe from "../images/RememberMe.png"
 import Footer from "../components/footer"
 import { Layout } from "../components/layout"
 import styles from "../components/mystyle.module.css"
 import { MainRow, MainCol } from "../components/grid"
 import { Icon } from "antd"
+import Paragraph2 from "../components/paragraph2"
 
 export default () => (
   <Layout>
@@ -17,8 +19,16 @@ export default () => (
         <MainCol>
           <Paragraph
             paragraphText="
-      Here you can find some of my own projects or projects I helped to build."
+      Here you can find some of my own projects or projects I helped to build. "
           />
+          <div style={{ textAlign: "center" }}>
+            <a href="#C4">
+              <Icon
+                type="arrow-down"
+                style={{ fontSize: "40px", color: "black" }}
+              />
+            </a>
+          </div>
         </MainCol>
         <MainCol>
           <img
@@ -28,11 +38,24 @@ export default () => (
           />
         </MainCol>
       </MainRow>
-      <a href="#C4">
-        <Icon type="arrow-down" style={{ fontSize: "30px", color: "black" }} />
-      </a>
+      <div class={styles.line}></div>
 
-      <h2 id="C4">RememberMe</h2>
+      <MainRow>
+        <MainCol>
+          <h1 id="C4">RememberMe</h1>
+          <Paragraph2
+            paragraph2Text="I helped to create variations of responsive HTML emails for the project
+            RememberMe using ZURB Foundation."
+          />
+        </MainCol>
+        <MainCol>
+          <img
+            src={RememberMe}
+            alt="RememberMe"
+            className={styles.imageDimension}
+          />
+        </MainCol>
+      </MainRow>
     </Container>
   </Layout>
 )
