@@ -101,6 +101,7 @@ li a:hover {
 .footer {
   width: 100%;
   height: 100px;
+  line-height: 100px;
   background: linear-gradient(to right, #f9ed32, #ee2a7b) !important;
   padding: 10px;
   text-align: center;
