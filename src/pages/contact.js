@@ -35,7 +35,6 @@ export default () => (
             </div>
           </div>
 
-          <div class={styles.line}></div>
           <img
             src={ContactImage}
             alt="Programming girl"
