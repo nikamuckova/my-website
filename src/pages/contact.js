@@ -18,9 +18,9 @@ export default () => (
           <ContactForm />
         </MainCol>
         <MainCol>
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div className={styles.contact}>
             <img src={MyImage} alt="Me" className={styles.myImage} />
-            <div style={{ paddingTop: "50px" }}>
+            <div>
               <h1>Nikola Múčková</h1>
               <a className={styles.contactInfo} href="tel: +421 905 904 323">
                 +421 905 904 323
