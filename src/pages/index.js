@@ -14,7 +14,7 @@ export default () => (
 
       <MainRow>
         <MainCol>
-          <Paragraph paragraphText="I am 25 years old Junior Front-end developer, and I am currently searching for new job opportunities. I have graduated in international relations and worked as Sales Manager to finally find my happiness in programming." />
+          <Paragraph paragraphText="I am a 25 years old Junior Front-end developer, and I am currently searching for new job opportunities. After graduation in international relations and working in sales, I have finally found my passion in programming." />
         </MainCol>
         <MainCol>
           <img

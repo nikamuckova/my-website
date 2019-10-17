@@ -13,14 +13,14 @@ export default () => (
       <Header headerText="Skills" />
       <MainRow>
         <MainCol>
-          <h1 id="C4">Preferred Frontend Frameworks</h1>
-          <Paragraph2 paragraph2Text="React/Next.js/Gatsby/Bootstrap" />
+          <h1 id="C4">Front-end Frameworks</h1>
+          <Paragraph2 paragraph2Text="React/jQuery/Next.js/Gatsby/Bootstrap" />
           <h1 id="C4">Languages</h1>
-          <Paragraph2 paragraph2Text="JavaScript (ES6+)/typescript/html5/css/scss" />
+          <Paragraph2 paragraph2Text="JavaScript (ES6+)/TypeScript/HTML5/CSS/Sass" />
           <h1 id="C4">Methods & Tools</h1>
-          <Paragraph2 paragraph2Text="npm/gulp/webpack/redux" />
+          <Paragraph2 paragraph2Text="npm/Gulp/webpack/Redux/ESLint" />
           <h1 id="C4">Additional</h1>
-          <Paragraph2 paragraph2Text="git/" />
+          <Paragraph2 paragraph2Text="git" />
         </MainCol>
         <MainCol>
           <img

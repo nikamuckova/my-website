@@ -19,16 +19,8 @@ export default () => (
         <MainCol>
           <Paragraph
             paragraphText="
-      Here you can find some of my own projects or projects I helped to build. "
+      Here you can find some of my projects or projects I helped to build. "
           />
-          <div style={{ textAlign: "center" }}>
-            <a href="#C4">
-              <Icon
-                type="arrow-down"
-                style={{ fontSize: "40px", color: "black" }}
-              />
-            </a>
-          </div>
         </MainCol>
         <MainCol>
           <img
@@ -38,15 +30,21 @@ export default () => (
           />
         </MainCol>
       </MainRow>
+
+      <div style={{ textAlign: "center", marginTop: "40px" }}>
+        <a href="#C4">
+          <Icon
+            type="arrow-down"
+            style={{ fontSize: "40px", color: "black" }}
+          />
+        </a>
+      </div>
       <div class={styles.line}></div>
 
       <MainRow>
         <MainCol>
           <h1 id="C4">RememberMe</h1>
-          <Paragraph2
-            paragraph2Text="I helped to create variations of responsive HTML emails for the project
-            RememberMe using ZURB Foundation."
-          />
+          <Paragraph2 paragraph2Text="I helped to create variations of responsive HTML emails." />
         </MainCol>
         <MainCol>
           <img
