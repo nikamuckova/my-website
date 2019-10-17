@@ -7,6 +7,7 @@ import Footer from "../components/footer"
 import { Layout } from "../components/layout"
 import ContactForm from "../components/contactForm"
 import { MainRow, MainCol } from "../components/grid"
+import MyImage from "../images/me.jpg"
 
 export default () => (
   <Layout>
@@ -17,6 +18,24 @@ export default () => (
           <ContactForm />
         </MainCol>
         <MainCol>
+          <div style={{ display: "flex", flexDirection: "row" }}>
+            <img src={MyImage} alt="Me" className={styles.myImage} />
+            <div style={{ paddingTop: "50px" }}>
+              <h1>Nikola Múčková</h1>
+              <a className={styles.contactInfo} href="tel: +421 905 904 323">
+                +421 905 904 323
+              </a>
+              <br />
+              <a
+                className={styles.contactInfo}
+                href="mailto: nikolkamuckova@gmail.com"
+              >
+                nikolkamuckova@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class={styles.line}></div>
           <img
             src={ContactImage}
             alt="Programming girl"
