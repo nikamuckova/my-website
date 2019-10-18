@@ -31,7 +31,9 @@ export default () => (
         </MainCol>
       </MainRow>
 
-      <div style={{ textAlign: "center", marginTop: "40px" }}>
+      <div
+        style={{ textAlign: "center", marginTop: "60px", marginBottom: "60px" }}
+      >
         <a href="#C4">
           <Icon
             type="arrow-down"
