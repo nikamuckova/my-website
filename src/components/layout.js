@@ -12,7 +12,7 @@ export const Layout = ({ children }) => (
   <>
     <Helmet
       title="Nika Muckova"
-      description="I am a 25 years old Junior Front-end developer."
+      description="I am a 25 years old Junior Front-end Developer."
     />
     <div className={styles.body}>
       <div className={styles.wrapper}>
@@ -28,10 +28,3 @@ export const Layout = ({ children }) => (
     </div>
   </>
 )
-
-/*TO DO:
-- new menu for small screens
-- edit button for flowFrom
-- make fixed menu
-- make own thank you site after user submit the form
-*/
