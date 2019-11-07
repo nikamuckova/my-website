@@ -242,3 +242,15 @@ li a:hover {
     text-align: left;
   }
 }
+
+.imageBorder {
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: white;
+  border-style: solid;
+  border-color: #ff69b450;
+}
+
+.imageBorder:hover {
+  border-color: #ff69b4c9;
+}
