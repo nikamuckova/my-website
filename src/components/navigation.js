@@ -22,8 +22,8 @@ export default () => (
       </Link>
     </li>
     <li>
-      <Link activeClassName={styles.active} to="/portfolio">
-        Portfolio
+      <Link activeClassName={styles.active} to="/projects">
+        Projects
       </Link>
     </li>
     <li>
