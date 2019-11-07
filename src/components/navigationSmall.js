@@ -46,9 +46,9 @@ export default () => {
           <Link
             activeClassName={styles.active}
             className={styles.menuItem}
-            to="/portfolio"
+            to="/projects"
           >
-            Portfolio
+            Projects
           </Link>
           <Link
             activeClassName={styles.active}

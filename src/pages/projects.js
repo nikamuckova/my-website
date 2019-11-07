@@ -10,11 +10,12 @@ import styles from "../components/mystyle.module.css"
 import { MainRow, MainCol } from "../components/grid"
 import { Icon } from "antd"
 import Paragraph2 from "../components/paragraph2"
+import SpolocneByvanie from "../images/SpolocneByvanie.png"
 
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="My portfolio" />
+      <Header headerText="My projects" />
       <MainRow>
         <MainCol>
           <Paragraph
@@ -41,21 +42,37 @@ export default () => (
           />
         </a>
       </div>
-      <div class={styles.line}></div>
 
-      <MainRow>
-        <MainCol>
-          <h1 id="C4">RememberMe</h1>
-          <Paragraph2 paragraph2Text="I helped to create variations of responsive HTML emails." />
-        </MainCol>
-        <MainCol>
-          <img
-            src={RememberMe}
-            alt="RememberMe"
-            className={styles.imageDimension}
-          />
-        </MainCol>
-      </MainRow>
+      <div id="C4">
+        <MainRow>
+          <MainCol>
+            <h1>RememberMe</h1>
+            <Paragraph2 paragraph2Text="Help with the creation of notification emails for the project RememberMe using ZURB Foundation framework." />
+            <Paragraph2 paragraph2Text="Used technologies: Foundation, HTML, CSS" />
+          </MainCol>
+          <MainCol>
+            <img
+              src={RememberMe}
+              alt="RememberMe"
+              className={(styles.imageDimension, styles.imageBorder)}
+            />
+          </MainCol>
+        </MainRow>
+        <MainRow>
+          <MainCol>
+            <h1>Spoločné Bývanie</h1>
+            <Paragraph2 paragraph2Text="Help with rewriting the code from Ember to React for the project Spoločné Bývanie." />
+            <Paragraph2 paragraph2Text="Used technologies: React" />
+          </MainCol>
+          <MainCol>
+            <img
+              src={SpolocneByvanie}
+              alt="Spoločné Bývanie"
+              className={(styles.imageDimension, styles.imageBorder)}
+            />
+          </MainCol>
+        </MainRow>
+      </div>
     </Container>
   </Layout>
 )
