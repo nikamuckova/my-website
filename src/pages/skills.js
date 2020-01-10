@@ -13,6 +13,7 @@ export default () => (
       <Header headerText="Skills" />
       <MainRow>
         <MainCol>
+          <p>I know everything</p>
           <h1 id="C4">Front-end Frameworks and Libraries</h1>
           <Paragraph2 paragraph2Text="React/jQuery/Next.js/Gatsby/Bootstrap/Foundation/Ant Design" />
           <h1 id="C4">Languages</h1>
