@@ -25,6 +25,7 @@ export default () => (
               <a className={styles.contactInfo} href="tel: +421 905 904 323">
                 +421 905 904 323
               </a>
+              <p>Hello test</p>
               <br />
               <a
                 className={styles.contactInfo}
