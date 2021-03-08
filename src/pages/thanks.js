@@ -11,11 +11,9 @@ import { MainRow, MainCol } from "../components/grid"
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="Contact me!" />
-
       <div className={styles.thanks}>
-        <b style={{ fontSize: "25px" }}>Thank you!</b>
-        <p style={{ fontSize: "18px" }}>Your message has been received.</p>
+        <b style={{ fontSize: "25px" }}>Ďakujeme!</b>
+        <p style={{ fontSize: "18px" }}>Vaša správa bola úspešne odoslaná.</p>
       </div>
       <img
         src={ContactImage}

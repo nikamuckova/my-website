@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="226px" height="201px" viewBox="0 0 226 201" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>okrasa-kruh</title>
+  <defs>
+    <linearGradient x1="49.9890712%" y1="135.325193%" x2="49.9890712%" y2="14.5263672%" id="linearGradient-1">
+      <stop stop-color="#ff69b4c9" offset="0%"></stop>
+      <stop stop-color="#FFFFFF" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="49.9890712%" y1="135.325193%" x2="49.9890712%" y2="14.5263672%" id="linearGradient-2">
+      <stop stop-color="#ff69b4c9" offset="0%"></stop>
+      <stop stop-color="#FFFFFF" offset="100%"></stop>
+    </linearGradient>
+    <path d="M167.499737,80.5 C162.805499,80.5 159,84.0818936 159,88.5 L159,88.5 C159,92.9183541 162.805499,96.5 167.499737,96.5 L167.499737,96.5 C172.194238,96.5 176,92.9183541 176,88.5 L176,88.5 C176,84.0818936 172.194238,80.5 167.499737,80.5 Z" id="path-3"></path>
+    <filter x="-226.5%" y="-228.1%" width="552.9%" height="581.2%" filterUnits="objectBoundingBox" id="filter-4">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <path d="M5.49984519,151 C2.7385287,151 0.5,153.238684 0.5,156 L0.5,156 C0.5,158.761471 2.7385287,161 5.49984519,161 L5.49984519,161 C8.26131649,161 10.5,158.761471 10.5,156 L10.5,156 C10.5,153.238684 8.26131649,151 5.49984519,151 Z" id="path-5"></path>
+    <filter x="-385.0%" y="-365.0%" width="870.0%" height="870.0%" filterUnits="objectBoundingBox" id="filter-6">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <path d="M10.4999071,10 C8.84311722,10 7.5,11.3432101 7.5,13 L7.5,13 C7.5,14.6568828 8.84311722,16 10.4999071,16 L10.4999071,16 C12.1567899,16 13.5,14.6568828 13.5,13 L13.5,13 C13.5,11.3432101 12.1567899,10 10.4999071,10 Z" id="path-7"></path>
+    <filter x="-641.7%" y="-608.3%" width="1383.3%" height="1383.3%" filterUnits="objectBoundingBox" id="filter-8">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <path d="M140.499907,25 C138.843117,25 137.5,26.3432101 137.5,28 L137.5,28 C137.5,29.6568828 138.843117,31 140.499907,31 L140.499907,31 C142.15679,31 143.5,29.6568828 143.5,28 L143.5,28 C143.5,26.3432101 142.15679,25 140.499907,25 Z" id="path-9"></path>
+    <filter x="-641.7%" y="-608.3%" width="1383.3%" height="1383.3%" filterUnits="objectBoundingBox" id="filter-10">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+  </defs>
+  <g id="New-Design-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="okrasa-kruh" transform="translate(25.000000, 13.000000)">
+      <path d="M92,0 C50.5786438,0 17,33.5695363 17,75 L17,75 C17,116.421356 50.5695363,150 92,150 L92,150 C133.421356,150 167,116.430464 167,75 L167,75 C167,33.5786438 133.430464,0 92,0 L92,0 Z" id="Rectangle" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linejoin="round" stroke-dasharray="25,8"></path>
+      <g id="Fill-1-Copy">
+        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+        <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+      </g>
+      <g id="Fill-1-Copy-4">
+        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-5"></use>
+      </g>
+      <g id="Fill-1-Copy-6">
+        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-7"></use>
+      </g>
+      <g id="Fill-1-Copy-6">
+        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-9"></use>
+      </g>
+    </g>
+  </g>
+</svg>
