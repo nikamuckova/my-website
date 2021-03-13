@@ -3,7 +3,7 @@ import Header from "../components/header"
 import styles from "../components/mystyle.module.css"
 import Paragraph from "../components/paragraph"
 import Container from "../components/container"
-import GirlImage from "../images/profile.jpg"
+import GirlImage from "../images/klaudia-profile.jpg"
 import CircleImage from "../images/okrasa-kruh.svg"
 
 import { Layout } from "../components/layout"
@@ -15,7 +15,7 @@ import { Icon } from "antd"
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="Nikola Múčková" />
+      <Header headerText="Klaudia Horoň" />
 
       <MainRow>
         <MainCol>
@@ -41,12 +41,12 @@ export default () => (
 
       <MainRow>
         <div className={styles.quotation}>
-          „Sen, ktorý snívate sami, je len snom. Sen, ktorý snívate spolu s
-          nami, je realitou.“ <br /> Neváhaj a pridaj sa k nám!
+          „Každý, kto je tu, chce zbohatnúť a chce rýchlo zbohatnúť. Všetci chcú
+          niečo za nič.“
         </div>
       </MainRow>
       <div className={styles.icons}>
-        <a
+        {/* <a
           href="https://telegram.me/nikamuckova"
           target="_blank"
           rel="noopener noreferrer"
@@ -63,9 +63,9 @@ export default () => (
           >
             <path d="m12 24c6.629 0 12-5.371 12-12s-5.371-12-12-12-12 5.371-12 12 5.371 12 12 12zm-6.509-12.26 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" />
           </svg>
-        </a>
+        </a> */}
         <a
-          href="https://www.instagram.com/nika.muckova/"
+          href="https://www.instagram.com/klaudy15/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
@@ -73,7 +73,7 @@ export default () => (
           <Icon type="instagram" />
         </a>
         <a
-          href="//api.whatsapp.com/send?phone=421905904323"
+          href="//api.whatsapp.com/send?phone=421948166035"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
@@ -91,14 +91,14 @@ export default () => (
             />
           </svg>
         </a>
-        <a
+        {/* <a
           href="mailto:nikolkamuckova@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
         >
           <Icon type="mail" />
-        </a>
+        </a> */}
       </div>
     </Container>
   </Layout>

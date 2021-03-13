@@ -101,7 +101,7 @@ img {
 
 :global .ant-input:focus {
   border-color: #6f57a5 !important;
-  box-shadow: 0 0 0 2px rgb(24 144 255 / 0%)!important;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 0%) !important;
 }
 
 @media (min-width: 1150px) {
@@ -378,7 +378,7 @@ a:hover {
   position: absolute;
   border-radius: 50%;
   width: 300px;
-  transform: translate(0, -25%);
+  transform: translate(0, -25%) rotate(-12deg);
 }
 
 .circleImg {
