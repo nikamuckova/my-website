@@ -3,7 +3,7 @@ import Header from "../components/header"
 import styles from "../components/mystyle.module.css"
 import Paragraph from "../components/paragraph"
 import Container from "../components/container"
-import GirlImage from "../images/profile.jpg"
+import GirlImage from "../images/edita-profile.png"
 import CircleImage from "../images/okrasa-kruh.svg"
 
 import { Layout } from "../components/layout"
@@ -15,7 +15,7 @@ import { Icon } from "antd"
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="Nikola Múčková" />
+      <Header headerText="Edita Magdolenová" />
 
       <MainRow>
         <MainCol>
@@ -65,14 +65,14 @@ export default () => (
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/nika.muckova/"
+          href="https://www.instagram.com/beeditabe/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
         >
           <Icon type="instagram" />
         </a>
-        <a
+        {/* <a
           href="//api.whatsapp.com/send?phone=421905904323"
           target="_blank"
           rel="noopener noreferrer"
@@ -90,9 +90,9 @@ export default () => (
               fill-rule="evenodd"
             />
           </svg>
-        </a>
+        </a> */}
         <a
-          href="mailto:nikolkamuckova@gmail.com"
+          href="mailto:magdolenova.edita@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
