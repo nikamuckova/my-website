@@ -15,7 +15,7 @@ import { Icon } from "antd"
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="BE by Simona Kolláriková" />
+      <Header headerText="Simona Kolláriková" />
 
       <MainRow>
         <MainCol>
