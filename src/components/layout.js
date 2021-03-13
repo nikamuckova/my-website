@@ -8,7 +8,7 @@ import "antd/dist/antd.css"
 
 export const Layout = ({ children }) => (
   <>
-    <Helmet title="Nika Muckova" description="Networking at Be Academy" />
+    <Helmet title="Zarábaj s nami" description="Zarábaj s nami online" />
     <div className={styles.body}>
       <div
         className={styles.wrapper}
