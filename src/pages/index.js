@@ -47,7 +47,7 @@ export default () => (
       </MainRow>
       <div className={styles.icons}>
         <a
-          href="https://telegram.me/nikamuckova"
+          href="https://telegram.me/editamagdolenova"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
@@ -72,8 +72,8 @@ export default () => (
         >
           <Icon type="instagram" />
         </a>
-        {/* <a
-          href="//api.whatsapp.com/send?phone=421905904323"
+        <a
+          href="//api.whatsapp.com/send?phone=421904651062"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
@@ -90,7 +90,7 @@ export default () => (
               fill-rule="evenodd"
             />
           </svg>
-        </a> */}
+        </a>
         <a
           href="mailto:magdolenova.edita@gmail.com"
           target="_blank"
