@@ -73,7 +73,7 @@ export default () => (
           <Icon type="instagram" />
         </a>
         <a
-          href="//api.whatsapp.com/send?phone=421948166035"
+          href="//api.whatsapp.com/send?phone=421949021987"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
