@@ -413,7 +413,7 @@ a:hover {
 
 @media (max-width: 1150px) {
   .profileImg {
-    transform: translate(0, 0);
+    transform: translate(0, 0) rotate(-12deg);
     width: 200px;
   }
 
