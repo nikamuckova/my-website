@@ -293,6 +293,7 @@ a:hover {
   padding-right: 10px;
   transition: opacity 0.3s;
   fill: #6f57a5;
+  text-decoration: none;
 }
 
 .media:last-child {
