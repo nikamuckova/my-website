@@ -3,7 +3,7 @@ import Header from "../components/header"
 import styles from "../components/mystyle.module.css"
 import Paragraph from "../components/paragraph"
 import Container from "../components/container"
-import GirlImage from "../images/work.png"
+import GirlImage from "../images/work.jpg"
 import Instagram from "../images/instagram-colored.svg"
 
 import CircleImage from "../images/okrasa-kruh.svg"
