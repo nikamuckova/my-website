@@ -14,6 +14,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/* .layout {
+  width: 100%;
+} */
+
 @media (max-width: 414px) {
   .header {
     font-size: 40px;
@@ -54,9 +58,9 @@ img {
   height: 100%;
 }
 
-/* .main {
-  padding-bottom: 40px;
-} */
+.main {
+  width: 100%;
+}
 
 .container {
   max-width: 1240px;
@@ -101,7 +105,7 @@ img {
 
 :global .ant-input:focus {
   border-color: #6f57a5 !important;
-  box-shadow: 0 0 0 2px rgb(24 144 255 / 0%)!important;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 0%) !important;
 }
 
 @media (min-width: 1150px) {
@@ -163,9 +167,10 @@ li a:hover {
 
 .quotation {
   color: #fff;
-  font-family: "Indie Flower", cursive;
+  font-family: "Handlee", cursive;
   font-size: 26px;
-  margin: 0 170px 50px;
+  /* margin: 0 170px 50px; */
+  margin: 0 auto;
   text-align: center;
 }
 

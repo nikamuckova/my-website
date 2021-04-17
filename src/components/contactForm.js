@@ -3,7 +3,15 @@ import { Form, Input } from "antd"
 import styles from "./mystyle.module.css"
 
 export default () => (
-  <div className={styles.formBorder} style={{ width: "100%" }}>
+  <div
+    className={styles.formBorder}
+    style={{
+      width: "100%",
+      maxWidth: "1000px",
+      marginLeft: "auto",
+      marginRight: "auto",
+    }}
+  >
     <form name="contact" method="post" data-netlify="true" action="/thanks">
       <input type="hidden" name="form-name" value="contact" />
       <Form.Item label="Vaše meno">

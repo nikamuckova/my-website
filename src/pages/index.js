@@ -3,7 +3,7 @@ import Header from "../components/header"
 import styles from "../components/mystyle.module.css"
 import Paragraph from "../components/paragraph"
 import Container from "../components/container"
-import GirlImage from "../images/kika-profile2.jpg"
+import GirlImage from "../images/jana-two.jpg"
 import CircleImage from "../images/okrasa-kruh.svg"
 
 import { Layout } from "../components/layout"
@@ -15,7 +15,7 @@ import { Icon } from "antd"
 export default () => (
   <Layout>
     <Container>
-      <Header headerText="Kristína Mičúchová" />
+      <Header headerText="Jana Paldusová" />
 
       <MainRow>
         <MainCol>
@@ -41,13 +41,13 @@ export default () => (
 
       <MainRow>
         <div className={styles.quotation}>
-          „Nemusíte byť úspešní, aby ste začali. Ale začať, aby ste boli
-          úspešní.“
+          „Je potřebné být odlišný, abyste byli nenahraditelní“ <br />- COCO
+          CHANEL
         </div>
       </MainRow>
       <div className={styles.icons}>
         <a
-          href="https://telegram.me/kikamicuchova"
+          href="https://telegram.me/JanaPaldusova"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
@@ -65,7 +65,7 @@ export default () => (
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/kikuska_micu/"
+          href="https://www.instagram.com/p.jana/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
@@ -73,7 +73,7 @@ export default () => (
           <Icon type="instagram" />
         </a>
         <a
-          href="//api.whatsapp.com/send?phone=421904528907"
+          href="//api.whatsapp.com/send?phone=420724888814"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
@@ -92,7 +92,7 @@ export default () => (
           </svg>
         </a>
         <a
-          href="mailto:kika.micuchova@gmail.com"
+          href="mailto:jpaldusova@email.cz"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.media}
